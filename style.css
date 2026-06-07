@@ -1,0 +1,44 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; background-color: #f4f4f4; color: #333; }
+header { background-color: #1e1e24; color: #ffffff; text-align: center; padding: 2rem 1rem; }
+header h1 { margin: 0; font-size: 2.5rem; }
+nav { background-color: #333; padding: 0.5rem; position: sticky; top: 0; z-index: 100; }
+nav ul { list-style: none; padding: 0; display: flex; justify-content: center; }
+nav ul li { margin: 0 15px; }
+nav ul li a { color: white; text-decoration: none; font-weight: bold; }
+section { padding: 3rem 2rem; margin: 20px auto; max-width: 900px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+h2 { border-bottom: 2px solid rgba(0,0,0,0.1); padding-bottom: 10px; }
+footer { background-color: #1e1e24; color: white; text-align: center; padding: 1.5rem; margin-top: 40px; }
+
+/* FONDOS */
+#inicio { background: linear-gradient(135deg, #0052D4, #4364F7); color: #fff; }
+#habilidades { background: linear-gradient(120deg, #4e54c8, #948ef3); }
+#proyectos { background: linear-gradient(135deg, #00b4db, #0083b0); }
+#contacto { background: linear-gradient(145deg, #0b0c10, #1f2833); color: #fff; }
+
+/* PROYECTOS Y COLORES */
+.proj-block { background-color: rgba(255, 255, 255, 0.9); padding: 15px; margin-bottom: 15px; border-radius: 8px; }
+.game-item { margin-bottom: 20px; }
+.proj-container { display: flex; align-items: center; gap: 15px; }
+.proj-img { height: 40px; width: auto; object-fit: contain; }
+
+.title-niogx { color: #311b92 !important; margin: 0; }
+.title-sand { color: #873600 !important; margin: 0; }
+.title-omniversus { color: #2ecc71 !important; margin: 0; }
+.title-especies { color: #d84315 !important; margin: 0; }
+
+/* HABILIDADES */
+.hab-egoista { background: #e0f7fa; color: #006064; padding: 5px 10px; border-radius: 5px; font-weight: bold; }
+.hab-ia { color: #fff; background-color: #333; padding: 2px 6px; border-radius: 4px; font-weight: bold; }
+/* AJUSTE PARA EL LOGO DE X */
+.icon-x {
+    height: 25px;      /* Esto controla el tamaño, cámbialo a 20px si aún es grande */
+    width: 25px;       /* Mantiene el logo cuadrado */
+    vertical-align: middle; /* Alinea el logo con el texto */
+    margin-left: 10px;
+    transition: transform 0.2s;
+}
+
+/* Opcional: Si quieres que cambie un poco al pasar el mouse */
+.icon-x:hover {
+    transform: scale(1.1);
+}
